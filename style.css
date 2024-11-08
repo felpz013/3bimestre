@@ -1,0 +1,23 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a fonte Bebas Neue */
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    height: 100vh;  /* Para garantir que o body ocupe toda a altura da tela */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #f4f4f4;  /* Cor de fundo clara */
+    text-align: center;  /* Alinha o texto no centro */
+}
+
+/* Estilos do texto */
+h1 {
+    font-size: 4rem;  /* Ajuste o tamanho da fonte conforme necessário */
+    color: #333;  /* Cor do texto */
+}
